@@ -38,8 +38,8 @@ const roadmap: NextPage = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/about">ABOUT</Nav.Link>
-              <Nav.Link href="#">RARITY/COLLECTION</Nav.Link>
-              <Nav.Link href="/roadmap">ROADMAP</Nav.Link>
+              <Nav.Link href="/rarityCollection">RARITY/COLLECTION</Nav.Link>
+              <Nav.Link href="#">ROADMAP</Nav.Link>
             </Nav>
             <Nav>
               <Button
