@@ -1,4 +1,11 @@
 import '../styles/globals.css'
+
+//bootstrap import
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
