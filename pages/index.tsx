@@ -78,7 +78,7 @@ const Home: NextPage = () => {
               {/* CAROSUEL/SLIDESHOW */}
               <Carousel>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100 wrapper img"
                     src="NFT-Placeholder1.jpg"
                     alt="First slide"
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <Image
                     className="d-block w-100"
                     src="NFT-Placeholder2.jpg"
                     alt="Second slide"

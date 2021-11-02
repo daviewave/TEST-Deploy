@@ -60,7 +60,7 @@ const about: NextPage = () => {
               <p className={styles.wrapper}>
                 {" "}
                 Here, we will insert some sort of catchy phrase. But, now, we
-                don't have any phrase, so we just wanted to fill this area in
+                dont have any phrase, so we just wanted to fill this area in
                 with plenty of text. I hope you have a stellar day!
               </p>
             </Col>
