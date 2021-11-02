@@ -177,6 +177,9 @@
   margin-top: 20px;
   margin-bottom: 15px; 
   margin-left: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .collectionContainer{
@@ -208,14 +211,12 @@
 
 .img{
   border-radius: 25px;
-  /* width: 175%; */
-  height: 100%;
-  margin-left: 15%;
-  /* margin-right: auto; */
+  margin-left: 100px;
 }
 .roadmapContainer{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   border: 1px solid black;
   height: 450px;
   border-radius: 25px;

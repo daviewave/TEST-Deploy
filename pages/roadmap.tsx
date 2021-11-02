@@ -8,7 +8,6 @@ import styles from "../styles/Home.module.css";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
@@ -61,10 +60,12 @@ const roadmap: NextPage = () => {
           <h1 className={styles.center}>ROADMAP</h1>
           <div className={styles.roadmapContainer}>
             <div>
-              <img
+              <Image
                 className={styles.img}
-                src="roadmap-placeholder.jpg"
+                src="/roadmap-placeholder.jpg"
                 alt="Second slide"
+                height="450px"
+                width="750px"
               />
             </div>
           </div>

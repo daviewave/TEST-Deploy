@@ -79,9 +79,11 @@ const Home: NextPage = () => {
               <Carousel>
                 <Carousel.Item>
                   <Image
-                    className="d-block w-100 wrapper img"
-                    src="NFT-Placeholder1.jpg"
-                    alt="First slide"
+                    className={styles.img}
+                    src="/NFT-Placeholder1.jpg"
+                    alt="first slide"
+                    height="450px"
+                    width="750px"
                   />
                   <Carousel.Caption>
                     <h3>First slide label</h3>
@@ -92,9 +94,11 @@ const Home: NextPage = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
-                    className="d-block w-100"
-                    src="NFT-Placeholder2.jpg"
-                    alt="Second slide"
+                    className={styles.img}
+                    src="/NFT-Placeholder2.jpg"
+                    alt="first slide"
+                    height="450px"
+                    width="750px"
                   />
                   <Carousel.Caption>
                     <h3>Second slide label</h3>
