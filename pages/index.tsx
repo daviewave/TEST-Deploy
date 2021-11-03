@@ -56,7 +56,6 @@ const Home: NextPage = () => {
 
       {/* MAIN */}
       <main className={styles.main}>
-        {/* <div className={styles.minColWidth}> */}
         <Container>
           <Row>
             <Col id="leftHomeCol" className={styles.leftHomeCol} xs={4}>
@@ -95,7 +94,7 @@ const Home: NextPage = () => {
                   <Image
                     className={styles.img}
                     src="/NFT-Placeholder2.jpg"
-                    alt="first slide"
+                    alt="second slide"
                     height="450px"
                     width="750px"
                   />
