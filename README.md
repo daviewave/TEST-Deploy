@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 NEW REPO: https://github.com/sbonis01/current-solana-nft-mint
 
 
-NEW DEPLOY LINK: current-solana-nft-mint.vercel.app
+NEW DEPLOY LINK: http://current-solana-nft-mint.vercel.app/
 
 
 
