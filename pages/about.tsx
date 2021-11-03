@@ -23,14 +23,14 @@ const about: NextPage = () => {
 
       {/* NAVBAR */}
       <Navbar
-        className="navbar"
+        className={styles.navbar}
         collapseOnSelect
         expand="lg"
         bg="dark"
         variant="dark"
       >
         <Container>
-          <Navbar.Brand href="/">NFT COLLECTION 1 TITLE</Navbar.Brand>
+          <Navbar.Brand href="/">NFT COLLECTION (HOME)</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
