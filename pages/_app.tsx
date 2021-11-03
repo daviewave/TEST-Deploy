@@ -7,7 +7,7 @@ import { AppProps } from "next/app";
 require("../styles/globals.css");
 require("../styles/solana.css");
 
-//bootstrap import
+//bootstrap import comment
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const WalletConnectionProvider = dynamic<{ children: ReactNode }>(
