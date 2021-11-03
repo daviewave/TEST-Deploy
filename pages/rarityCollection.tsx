@@ -13,6 +13,12 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+//SOLANA DEPENDENCY IMPORT TO ALLOW PRE-MADE BUTTON CLASSES
+import {
+  WalletDisconnectButton,
+  WalletMultiButton,
+} from "@solana/wallet-adapter-react-ui";
+
 const rarityCollection: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -32,7 +38,7 @@ const rarityCollection: NextPage = () => {
         variant="dark"
       >
         <Container>
-          <Navbar.Brand href="/">NFT COLLECTION 1 TITLE</Navbar.Brand>
+          <Navbar.Brand href="/">NFT COLLECTION (HOME)</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -41,13 +47,11 @@ const rarityCollection: NextPage = () => {
               <Nav.Link href="/roadmap">ROADMAP</Nav.Link>
             </Nav>
             <Nav>
-              <Button
-                className={styles.connectBtn}
-                variant="primary outline-success"
-                id="connect-btn"
-              >
-                CONNECT WALLET
-              </Button>
+              <div id="connectButton" className={styles.walletButtons}>
+                <WalletMultiButton className={styles.connectBtn}>
+                  Connect Wallet
+                </WalletMultiButton>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>

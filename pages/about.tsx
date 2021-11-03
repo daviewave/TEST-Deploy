@@ -11,6 +11,12 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+//SOLANA DEPENDENCY IMPORT TO ALLOW PRE-MADE BUTTON CLASSES
+import {
+  WalletDisconnectButton,
+  WalletMultiButton,
+} from "@solana/wallet-adapter-react-ui";
+
 // TODO: FIX THIS 'const Home: NextPage' to about page
 const about: NextPage = () => {
   return (
@@ -39,13 +45,11 @@ const about: NextPage = () => {
               <Nav.Link href="/roadmap">ROADMAP</Nav.Link>
             </Nav>
             <Nav>
-              <Button
-                className={styles.connectBtn}
-                variant="primary outline-success"
-                id="connect-btn"
-              >
-                CONNECT WALLET
-              </Button>
+              <div id="connectButton" className={styles.walletButtons}>
+                <WalletMultiButton className={styles.connectBtn}>
+                  Connect Wallet
+                </WalletMultiButton>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
