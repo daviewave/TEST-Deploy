@@ -1,6 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+NEW REPO: https://github.com/sbonis01/current-solana-nft-mint
+NEW DEPLOY LINK: current-solana-nft-mint.vercel.app
+
+
+
+
+
+
+
+
+
+
+
 
 First, run the development server:
 
