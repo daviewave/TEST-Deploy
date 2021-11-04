@@ -1,4 +1,4 @@
-## Getting Started
+## THIS IS THE OLD VERSION OF THE PROJ -- NEW LINKS BELOW
 NEW REPO: https://github.com/sbonis01/current-solana-nft-mint
 
 NEW DEPLOY LINK: http://current-solana-nft-mint.vercel.app/
